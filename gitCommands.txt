@@ -22,3 +22,6 @@ git branch <branch name> създаване на нов клон. Това създава нов указател към съ
 git log --decorate   отпечатва накъде сочат указателите на разклоненията.
 
 git checkout <branch>  превключва към клон
+
+
+git log --oneline --decorate --graph --all графика на клоновете
