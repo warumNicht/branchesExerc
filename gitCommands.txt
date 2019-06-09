@@ -8,3 +8,6 @@ git checkout -- <file> to discard changes in working directory
 git diff показва неиндексираните разлики (всичко по-ново от последния комит)
 
 git log
+
+git commit -a -m "message" индексира всичко ново и комитва наведнъж
+ 
