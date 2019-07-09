@@ -9,7 +9,23 @@ git diff пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ
 
 git log2
 
+<<<<<<< HEAD
 git commit -a -m "message" пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 promeni w master
  
+=======
+git commit -a -m "message" индексира всичко ново и комитва наведнъж
+
+
+git config --global user.name "your username"
+
+git config --global user.password "your password"
+ 
+
+git branch <branch name> създаване на нов клон. Това създава нов указател към същия къмит, на който сте в момента
+
+git log --decorate   отпечатва накъде сочат указателите на разклоненията.
+
+git checkout <branch>  превключва към клон
+>>>>>>> dev
